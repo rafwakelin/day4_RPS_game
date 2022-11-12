@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -25,13 +27,10 @@ scissors = '''
 ---.__(___)
 '''
 
-import random
-
 choice = int(input("Time for some fun!\nLet's play a game of Rock, Paper, Scissors.\n\nAre you ready?\nType 0 for rock, 1 for paper or 2 for scissors: "))
 
 if choice != 0 or choice !=1 or choice !=2:
   print("Invalid entry, you LOSE!")
-
 else:
  options = [rock, paper, scissors]
 
@@ -61,7 +60,3 @@ else:
   print("You win")
  elif choice ==2 and i == 0:
   print("You lose")
-
-
-
-
