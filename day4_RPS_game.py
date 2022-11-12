@@ -25,7 +25,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
 import random
 
 choice = int(input("Time for some fun!\nLet's play a game of Rock, Paper, Scissors.\n\nAre you ready?\nType 0 for rock, 1 for paper or 2 for scissors: "))
